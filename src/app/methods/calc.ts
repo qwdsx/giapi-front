@@ -19,7 +19,7 @@ export const calculateRollValue = (
         if (!parseFloat(subStatRollTotal.value)) continue;
 
         const subStatRollCount = Math.ceil(parseFloat(subStatRollTotal.value) / substat.roll_values[3]);
-
+        
         total += parseFloat(subStatRollTotal.value) / (subStatRollCount * substat.roll_values[3]);
     }
 

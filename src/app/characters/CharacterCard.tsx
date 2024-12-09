@@ -34,7 +34,7 @@ const CharacterCard = ({ id }: CharacterCardProps) => {
         (data) && (
             <div>
 				<Link href={`/characters/${data.id}`}>
-                	<img className={`bg-indigo-700 w-24 ${rarityStyle} rounded-lg`} src={data.icon_url}/>
+                	<img className={`w-24 ${rarityStyle} rounded-lg`} src={data.icon_url}/>
 				</Link>
             </div>
         )
